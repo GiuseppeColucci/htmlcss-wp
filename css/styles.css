@@ -7,17 +7,29 @@
       background-image: url(../img/natural-pattern.png);
     }
 
-    header{
+    .conteiner-body{
+      width:1000px;
+      max-width:100%;
+      margin: 20px auto;
+    }
+
+    .header-up{
       background-image: url(../img/natural-header.jpg);
       background-size: cover;
-      height: 200px;
-      margin-bottom: 10px;
-    }
-
-
-    header h1{
       text-align: center;
+      border: 15px solid #fff;
     }
+
+    .header-up img{
+      width: 50%;
+    }
+    
+    .header-up h2{
+      color: #fff;
+    }
+
+
+
 
     /* contenitori centrali */
     main{
