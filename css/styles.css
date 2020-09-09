@@ -64,6 +64,16 @@
    main .main-content{
      float: left;
    }
+   main p{
+     padding: 20px;
+     line-height: 30px,
+   }
+   main h1{
+     padding: 20px;
+     color: #504741;
+     text-transform: uppercase;
+     text-shadow: 3px 3px 0rgba(0,0,0, .5);
+   }
    h2{
      padding:20px;
      color: #504741;
@@ -101,8 +111,9 @@
    }
    main .main-content{
      width: calc(50% - 20px);
-     height: 500px;
-     background:#80007e;
+     height: 300px;
+     background:#fff;
+     border-radius: 15px;
      margin-right: 20px;
    }
    .box-right{
