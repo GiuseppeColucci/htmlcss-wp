@@ -3,11 +3,20 @@
       padding:0;
       box-sizing: border-box;
     }
+    body{
+      background-image: url(../img/natural-pattern.png);
+    }
 
     header{
-      background:yellow;
+      background-image: url(../img/natural-header.jpg);
+      background-size: cover;
       height: 200px;
       margin-bottom: 10px;
+    }
+
+
+    header h1{
+      text-align: center;
     }
 
     /* contenitori centrali */
