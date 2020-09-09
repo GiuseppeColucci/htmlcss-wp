@@ -32,12 +32,24 @@
     .link{
       background-color:#666464;
       text-align: center;
-      display: inline-block;
+
     }
     .link .list li {
       display: inline-block;
       padding: 0 10px;
     }
+    .link .list li:hover {
+      background-color:#2cc6a9c9;
+    }
+
+    .link .list li a{
+      line-height: 50px;
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    /* <!-- FINE-NAVIGAZIONE --> */
 
 
 
