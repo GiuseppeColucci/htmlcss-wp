@@ -6,6 +6,10 @@
    body{
      background-image: url(../img/natural-pattern.png);
    }
+   a{
+     color: green;
+     text-decoration: none;
+   }
 
    .conteiner-body{
      width:1000px;
@@ -136,6 +140,35 @@
    /* fine parte centrale */
 
    footer{
-     background: #00ffff9c;
-     height: 200px;
+     background: #fff;
+     border-radius: 15px;
+     padding: 5%;
+   }
+
+   footer p{
+     color: #cecece;
+     text-align: center;
+   }
+   .social-list{
+     list-style: none;
+   }
+   .social-list::after{
+     content: '';
+     display: table;
+     clear: both;
+   }
+   .sociala-list li{
+     float: left;
+     width: 33.333%;
+     padding: 40px;
+   }
+   .sociala-list li{
+     color: #cecece;
+
+   }
+   .sociala-list li a:hover{
+     color:blue;
+   }
+   .sociala-list li a i{
+     font-size: 40px;
    }
